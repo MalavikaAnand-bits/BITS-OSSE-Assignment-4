@@ -9,23 +9,7 @@ body {
 	min-height: 1200px;
     overflow: auto;
 }
-.navbar-nav li a {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	font-size: 20px;
-	font-weight: bold;
-}
 
-.navbar-brand {
-	padding-top:25px;
-	padding-bottom: 25px;
-	font-size: 49px;
-}
-
-a.navbar-brand { 
-	color: #d24318;
-	margin-right: 20px;
-}
 .container {
 	min-width: 1200px;
 	margin: 0 auto;
