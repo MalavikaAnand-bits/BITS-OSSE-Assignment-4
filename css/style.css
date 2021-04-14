@@ -9,3 +9,9 @@ body {
 	min-height: 1200px;
     overflow: auto;
 }
+
+.container {
+	min-width: 1200px;
+	margin: 0 auto;
+	margin-top:90px;
+}
