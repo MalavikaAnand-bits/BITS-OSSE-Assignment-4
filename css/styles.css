@@ -3,3 +3,10 @@
 	margin;0;
 	padding:0;
 }
+
+body {
+	background: #d2bc96bf;
+	background-image: linear-gradient(to bottom right, #bfb8a2, #9f998a);
+	min-height: 1200px;
+    overflow: auto;
+}
