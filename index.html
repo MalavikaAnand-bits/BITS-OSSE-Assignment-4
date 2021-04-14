@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link type='text/css' href='css/style.css' rel='stylesheet'/>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <script type='text/javascript' src='js/script.js'></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -12,65 +15,62 @@
 		  <a class="navbar-brand" style='color: #d24318;font-weight:bold;'>Article Project</a>
 		</div>
 		<ul class="nav navbar-nav">
-		  <li><a href="#">Education</a></li>
-		  <li><a href="#">Food and Drinks</a></li>
-		  <li><a href="#">Health and Fitness</a></li>
-		  <li><a href="#">Sports</a></li>
-		  <li><a href="#">Business</a></li>
-		  <li><a href="#">News & Society</a></li>
-		  <li><a href="#">Internet</a></li>
+		  <li id='education' class="active"><a href="#">Education</a></li>
+		  <li id='food'><a href="#">Food and Drinks</a></li>
+		  <li id='health'><a href="#">Health and Fitness</a></li>
+		  <li id='sport'><a href="#">Sports</a></li>
+		  <li id='business'><a href="#">Business</a></li>
+		  <li id='news'><a href="#">News & Society</a></li>
+		  <li id='internet'><a href="#">Internet</a></li>
 		</ul>
 	  </div>
 	</nav>
 	<div class="container" style="margin-top:90px;">
 	<h1>Latest Most Trending Articles</h1>
 	
-	<article>
-	  <h2>Why Should You Learn Blockchain?</h2>
-	  <p>
+	<div class='education'>
+		<article>
+		  <h2>Why Should You Learn Blockchain?</h2>
+		  <p>
 			Blockchain is the digitalized ledger technology that will help you to legitimate and secures the transactions through the point network. This was initially being introduced in the year 2008 and practically was brought into use in the year 2009. After that blockchain never lost its popularity and has become a lot useful in its own domain.
-
 			Post Bitcoin different kinds of cryptocurrencies came into existence on the blockchain network. Moreover having the application, blockchain certainly becomes a lot helpful in different areas like industrial processes, cybersecurity, industrial processes, entertainment, governance, financial sector, and a lot more.
-
 			One of the most crucial factors for any nation which is functioning is having an accountable and transparent government. In most the nations, there is no see-through governance which means the citizens do not take part in the decision making process. Besides, they do not have any access to the information and records that they should have the right to know. Just by introducing this blockchain into the government system like elections, healthcare, takes and much more, legitimacy and transparency can be achieved.
-
 			Some of the nations like Britain, Australia, Germany have been working on the plans for integrating the blockchain into the governing system like store digital records, ensuring the tax compliance, for the welfare payments and much more.
-
 			To conclude the article, blockchain is one of those very few technologies that have been constantly growing in the market. This is the reason why there is a need for considering learning blockchain and taking this as the major profession.
-	  </p>
-	</article>
+		  </p>
+		</article>
 
-	<article>
-	  <h2>Benefits of Online Education Help</h2>
-	  <p>
-		These days students are on the constant lookout for shortcuts to excel in their academics. Every student is struggling to manage many things, along with their studies, job, relationships, and other social activities. This makes it difficult for them to meet their teacher demands and complete their online class courses and assignments. If it is your case too, then think this piece of writing as your problem solver! Online education help make it easy for you by providing a variety of guiding service including write your essays, do my online class, do your homework, make a presentation and give online exams in almost every subject. They provide you excellent help if you are stuck in your busy schedule, or the subject is too hard for you. Some of the benefits of online help are as under; 
-		
-		1. Access to Quality Services 
-		2. Help from Experienced Individuals
-		3. Ease of getting Best Results
-		4. Best Affordable Prices
-	  </p>
-	</article>
+		<article>
+		  <h2>Benefits of Online Education Help</h2>
+		  <p>
+			These days students are on the constant lookout for shortcuts to excel in their academics. Every student is struggling to manage many things, along with their studies, job, relationships, and other social activities. This makes it difficult for them to meet their teacher demands and complete their online class courses and assignments. If it is your case too, then think this piece of writing as your problem solver! Online education help make it easy for you by providing a variety of guiding service including write your essays, do my online class, do your homework, make a presentation and give online exams in almost every subject. They provide you excellent help if you are stuck in your busy schedule, or the subject is too hard for you. Some of the benefits of online help are as under; 
+			
+			1. Access to Quality Services 
+			2. Help from Experienced Individuals
+			3. Ease of getting Best Results
+			4. Best Affordable Prices
+		  </p>
+		</article>
 
-	<article>
-	  <h2>HAZARD AND RISK MANAGEMENT</h2>
-	  <p>
-				Industrial Hazards are potential harmful conditions that are associated with hazardous raw materials, processes, and work methods. The possibility of these conditions resulting in adverse outcomes coupled with uncertainty and magnitude forms the basis for potential risk which is either high or low. Organizations take up the systematic study of all activities to understand hazards and quantifying the risks associated with the hazards so that appropriate actions are taken at each and every step and controls are kept in place to mitigate the risks.
+		<article>
+		  <h2>HAZARD AND RISK MANAGEMENT</h2>
+		  <p>
+			Industrial Hazards are potential harmful conditions that are associated with hazardous raw materials, processes, and work methods. The possibility of these conditions resulting in adverse outcomes coupled with uncertainty and magnitude forms the basis for potential risk which is either high or low. Organizations take up the systematic study of all activities to understand hazards and quantifying the risks associated with the hazards so that appropriate actions are taken at each and every step and controls are kept in place to mitigate the risks.
 
-				The next step is to ensure that everyone understands the hazards and risk associated with all the activities they are involved and they take appropriate control measures as per the documented procedures. The top management has to ensure the following for implementation of proper risk control measures which are:
-				1) Training of employees
-				2) Communication of risks
-				3) Safety Signage
-				4) Audits/Monitoring
-	  </p>
-	</article>
+			The next step is to ensure that everyone understands the hazards and risk associated with all the activities they are involved and they take appropriate control measures as per the documented procedures. The top management has to ensure the following for implementation of proper risk control measures which are:
+			1) Training of employees
+			2) Communication of risks
+			3) Safety Signage
+			4) Audits/Monitoring
+		  </p>
+		</article>
+</div>
 
-
+<div class='food'>
 	<article>
 	  <h2>Health Benefits Of Cranberry Juice</h2>
 	  <p>
 		It’s no secret that berries are good for our health. Strawberries, blueberries, raspberrie they are all power packed with antioxidants and fiber. However, there’s one often-overlooked berry that gives various health benefits of Cranberry juice. Cranberry’s shrub is small, has dark green leaves, pink flowers, and is dark red in colour that are egg-shaped. With a flavor that many describe as both bitter and sour. It grown on 58,000 acres of farmland across the northern United States, Chile, and Canada. Many people consider cranberries to be a superfood as they are power packed with antioxidants, fiber. People consume them in the form of a sauce or a juice. They can also add them to stuffing, casseroles, or dessert. In this article, I will share benefits of cranberry juice. Let’s have a look on benefits of cranberry juice.
-
 		Cranberry juice gives a bunch of other health benefits. Perfect as a snack or a main dish, cranberries are a low-key nutrient powerhouse. With just 50 calories and  4 grams of sugar per cup. These berries are low in calories and sugar, especially in comparison to other fruits. People call cranberries a superfood for a very good reason as they have all kinds of health-boosting benefits.
 
 		Top Health Benefits of Cranberries Juice
@@ -88,13 +88,10 @@
 	  <h2>Reasons Why Food Delivery App Are Getting Popular</h2>
 	  <p>
 		Food delivery apps are the new way of getting your food delivered from your favorite restaurants in your area. The popularity of these apps has given rise to food delivery app clone scripts of different food applications. 
-
 		According to the reports, 58% of the millennials are likely to order food online through their desktop and 42% of them have a tendency to order food from their smartphones. The main reason could be the reduced cost and increased option, but the foremost reason behind this transformation could also because common people are now more relaxed in ordering through mobile apps rather than calling and talking to the other person directly. 
-
 		When the users are asked why do they prefer ordering food online, most of them answer that they can save much more through mobile apps as they are provided with discount coupons and promotional offers, while some of them answered that they find it very handy to deliver food online and get it on their doorstep without going anywhere. 
 
 		The key reasons why food delivery app scripts are getting popular:
-
 		1. Real-Time Menu
 		2. Modernized Customer Relationship
 		3. Customizable Layout Structure
@@ -108,108 +105,110 @@
 	<article>
 	  <h2>Some incredible benefits of vegetable oils</h2>
 	  <p>
-			Vegetable oils gained from plants are known to have umpteen advantages. Other than improving the texture and even the taste of edibles, vegetable oil has numerous different favourable circumstances making it a part of our daily diet. Some of the most popular oils for everyday use include sunflower oil, safflower oil, groundnut oil, and soybean oil
-				
-			Some salient advantages of vegetable oil include the following:
-			1. Good for the health of heart
-			2. Enhances the flavour
-			3. Trans-fat free
-			4. Helpful in menopausal issues
-			5. Stacked with nutrients	
+		Vegetable oils gained from plants are known to have umpteen advantages. Other than improving the texture and even the taste of edibles, vegetable oil has numerous different favourable circumstances making it a part of our daily diet. Some of the most popular oils for everyday use include sunflower oil, safflower oil, groundnut oil, and soybean oil
+			
+		Some salient advantages of vegetable oil include the following:
+		1. Good for the health of heart
+		2. Enhances the flavour
+		3. Trans-fat free
+		4. Helpful in menopausal issues
+		5. Stacked with nutrients	
 	  </p>
 	</article>
+</div>
 
-	<article>
-	  <h2>Adhering to a Balanced Diet Plan</h2>
-	  <p>
-		Obesity has become a common ailment among the masses. Most people find it difficult to do exercises regularly. Moreover, our dietary habits also act as a catalyst for us being unfit. We are too busy with our daily activities to devote time to ourselves. In spite of the fact that doctors always suggest us to do the exercises daily and follow a balanced diet plan, we only take it seriously when we fall ill. That is the time when we try to follow a healthy diet regimen to reduce our weight and stay fit. Whatever diet plans we stick to, we must remember that the calorie requirements of every individual vary.
-
-		We should always have at least full meals, along with some snacks in between. The daily intake should cover a balanced diet, proteins, and water. Men should consume around 2000 calories every day. It should include vitamins, minerals, and proteins. Energy foods like cereals, barley, oats as well as fresh fruits and vegetables are good for health. Similarly, proteins are also needed in the daily diet.
-	  </p>
-	</article>
-
-	<article>
-	  <h2>Powerful Yoga for Easy Weight Loss</h2>
-	  <p>
-		Yoga is a group of physical, mental, and spiritual practices or disciplines that originated from ancient India. Yoga is one of the six orthodox schools of the traditional Hindu philosophy.
-		What does Yoga Do?
-		In modern-day life, people use Yoga asanas as great weight loss tips. Yes! This is because yoga poses (asanas) help in losing tremendous amounts of weight when followed with a healthy diet. It is spiritually right for the body and aligns the soul perfectly in order with the mind. This is why it is also counted among the other Latest Wellness Tips for the body’s peace.
-	  </p>
-	</article>
-
-
-	<article>
-	  <h2>The best golf irons</h2>
-	  <p>
-		Most golfers have heard the saying, “drive for show and putt for dough,” meaning big-hitting drives from the tee are impressive, but those who win tournaments make clutch putts. However, that saying forgets one huge part of the game: Iron play. Hitting an accurate iron shot can make that putt much shorter and easier to make. And strong iron play can make up for some bad shots off the tee.
-
-		The design of the irons in your golf bag has undergone quite a few changes in the past couple of decades, delivering greater accuracy and distance for all skill levels. Irons can be expensive, so it’s important to buy the right set of irons to your shot-making skills.
-
-		A set of irons will consist of several clubs, all featuring a similar look. However, each individual iron in the set delivers a different angle of the clubface to the ball, which results in varying distances and trajectories. Irons will have shafts of different lengths
-	  </p>
-	</article>
-
-	<article>
-	  <h2>All About Fantasy Sports Applications and Its Future in India</h2>
-	  <p>
-		A Fantasy Sports app is a type of gaming application that is made for the Android and iOS devices. These apps offer an immersive gaming experience which makes them extremely popular nowadays. These gaming apps allow the fans to create their own teams. This is something that anyone can do by carefully selecting the players they believe are going to perform to the best of their abilities and better than others. The fantasy gaming apps provide with sign-up rewards, lots of goodies and real cash prizes which can be a source of great enthrallment to the users. Such benefits have really made it possible for the users to enjoy the diverse Fantasy Sports apps that are available in this country these days.
-
-		As the popularity and acceptance of the fantasy sports applications like Skill2Fortune have spread rapidly over the last 2 or 3 years in India, more and more game development companies now offer specialized infrastructure and support for such games. In fact, their use is definitely expected to increase over the next few years. India is now having high speed internet and with 5G internet features going to be launched soon in most of the flagship smartphone models, it is going to be easier than ever before for users to have a smooth and hassle free experience while trying to play these games. This means that there has never been a better time than now to invest in fantasy sports app development solutions.
-	  </p>
-	</article>
-	
-	<article>
-	  <h2>The importance of language translation service</h2>
-	  <p>
-		The barrier of language problem between two parties is eliminated with the help of language translation services. It’s equally important to get the services from trustworthy of a reliable translation agency. The reliable translation agency offers accurate information to all the clients. There is numerous Agencies available to offer inaccurate or culturally irrelevant translation services. If the translator you choose offer inaccurate service then it harms the reputation of the company or creates the numerous problem as well. It’s very important to select the service provider watchfully.
-
-		For all the business is it’s very crucial to get the translation services over the quality accuracy or efficiency. There are numerous reputed Agencies over the reasonable, professional translation services with the help of knowledgeable or extremely experienced native speakers.
-	  </p>
-	</article>
-
-	<article>
-	  <h2>CHOOSING THE RIGHT WORKOUT EQUIPMENT</h2>
-	  <p>
-		Today everyone wants to stay fit and healthy by going to a gym or doing the workout in a home. It is necessary to select which of the workout equipment is best for you? Home exercise appliances are a great and excellent workout solution for many people. Keep these cautions in mind.
-		Learn to use exercise equipment properly to avoid injuries that could sideline you either permanently or temporarily
-		The best machine buys if and only if, it produces results when used regularly. Workout equipment comes in all sizes, shapes as well as price ranges. Before buying an y equipment, check consumer ratings and follow our other tips for smart consumers.
-	  </p>
-	</article>
-
-
-	<article>
-	  <h2>Tips for perfect Eating out</h2>
-	  <p>
-		Eating out can be truly pleasurable when you realize how to approach the procedure. You should be cautious as you intend to eat in any eatery or inexpensive food community. This is on the grounds that; you can without much of a stretch devour nourishments that can make you include additional weight when you eat at an inappropriate spot. You should be appropriately guided in choosing sound weight control plans as you consider eating out.
-		
-		At long last, you should stay away from gorging as you eat out. You don’t need to eat out on everyday schedule. You despite everything need to set up your suppers so as to appreciate sound living.
-	  </p>
-	</article>	
-	
+<div class='health'>
 		<article>
-	  <h2>Benefits Of Email Marketing For Your Business</h2>
-	  <p>
-		Email marketing is sending messages to a group of people or a person through email. The sole reason for email marketing is to inform your customers or potential customers about your services, updates, offers or discounts. Email marketing is mostly used by companies or organizations to interact with their customers while promoting their brand.
+		  <h2>Adhering to a Balanced Diet Plan</h2>
+		  <p>
+			Obesity has become a common ailment among the masses. Most people find it difficult to do exercises regularly. Moreover, our dietary habits also act as a catalyst for us being unfit. We are too busy with our daily activities to devote time to ourselves. In spite of the fact that doctors always suggest us to do the exercises daily and follow a balanced diet plan, we only take it seriously when we fall ill. That is the time when we try to follow a healthy diet regimen to reduce our weight and stay fit. Whatever diet plans we stick to, we must remember that the calorie requirements of every individual vary.
 
-		Technology has evolved that email marketing is not only for desktop users but also for mobile users which means that there are more people to reach.91% of internet users check their email at least once a day on their smartphones. When it is done properly and you can connect with the audience the right way, you will see an ROI.
+			We should always have at least full meals, along with some snacks in between. The daily intake should cover a balanced diet, proteins, and water. Men should consume around 2000 calories every day. It should include vitamins, minerals, and proteins. Energy foods like cereals, barley, oats as well as fresh fruits and vegetables are good for health. Similarly, proteins are also needed in the daily diet.
+		  </p>
+		</article>
 
-		Email marketing is a must especially for businesses since it allows you to design emails depending on your target audience.
-	  </p>
-	</article>
+		<article>
+		  <h2>Powerful Yoga for Easy Weight Loss</h2>
+		  <p>
+			Yoga is a group of physical, mental, and spiritual practices or disciplines that originated from ancient India. Yoga is one of the six orthodox schools of the traditional Hindu philosophy.
+			What does Yoga Do?
+			In modern-day life, people use Yoga asanas as great weight loss tips. Yes! This is because yoga poses (asanas) help in losing tremendous amounts of weight when followed with a healthy diet. It is spiritually right for the body and aligns the soul perfectly in order with the mind. This is why it is also counted among the other Latest Wellness Tips for the body’s peace.
+		  </p>
+		</article>
+</div>
+
+<div class='sport'>
+		<article>
+		  <h2>The best golf irons</h2>
+		  <p>
+			Most golfers have heard the saying, “drive for show and putt for dough,” meaning big-hitting drives from the tee are impressive, but those who win tournaments make clutch putts. However, that saying forgets one huge part of the game: Iron play. Hitting an accurate iron shot can make that putt much shorter and easier to make. And strong iron play can make up for some bad shots off the tee.
+			The design of the irons in your golf bag has undergone quite a few changes in the past couple of decades, delivering greater accuracy and distance for all skill levels. Irons can be expensive, so it’s important to buy the right set of irons to your shot-making skills.
+			A set of irons will consist of several clubs, all featuring a similar look. However, each individual iron in the set delivers a different angle of the clubface to the ball, which results in varying distances and trajectories. Irons will have shafts of different lengths
+		  </p>
+		</article>
+
+		<article>
+		  <h2>All About Fantasy Sports Applications and Its Future in India</h2>
+		  <p>
+			A Fantasy Sports app is a type of gaming application that is made for the Android and iOS devices. These apps offer an immersive gaming experience which makes them extremely popular nowadays. These gaming apps allow the fans to create their own teams. This is something that anyone can do by carefully selecting the players they believe are going to perform to the best of their abilities and better than others. The fantasy gaming apps provide with sign-up rewards, lots of goodies and real cash prizes which can be a source of great enthrallment to the users. Such benefits have really made it possible for the users to enjoy the diverse Fantasy Sports apps that are available in this country these days.
+			As the popularity and acceptance of the fantasy sports applications like Skill2Fortune have spread rapidly over the last 2 or 3 years in India, more and more game development companies now offer specialized infrastructure and support for such games. In fact, their use is definitely expected to increase over the next few years. India is now having high speed internet and with 5G internet features going to be launched soon in most of the flagship smartphone models, it is going to be easier than ever before for users to have a smooth and hassle free experience while trying to play these games. This means that there has never been a better time than now to invest in fantasy sports app development solutions.
+		  </p>
+		</article>
+</div>
+	
+<div class='business'>	
+		<article>
+		  <h2>The importance of language translation service</h2>
+		  <p>
+			The barrier of language problem between two parties is eliminated with the help of language translation services. It’s equally important to get the services from trustworthy of a reliable translation agency. The reliable translation agency offers accurate information to all the clients. There is numerous Agencies available to offer inaccurate or culturally irrelevant translation services. If the translator you choose offer inaccurate service then it harms the reputation of the company or creates the numerous problem as well. It’s very important to select the service provider watchfully.
+			For all the business is it’s very crucial to get the translation services over the quality accuracy or efficiency. There are numerous reputed Agencies over the reasonable, professional translation services with the help of knowledgeable or extremely experienced native speakers.
+		  </p>
+		</article>
+
+		<article>
+		  <h2>CHOOSING THE RIGHT WORKOUT EQUIPMENT</h2>
+		  <p>
+			Today everyone wants to stay fit and healthy by going to a gym or doing the workout in a home. It is necessary to select which of the workout equipment is best for you? Home exercise appliances are a great and excellent workout solution for many people. Keep these cautions in mind.
+			Learn to use exercise equipment properly to avoid injuries that could sideline you either permanently or temporarily
+			The best machine buys if and only if, it produces results when used regularly. Workout equipment comes in all sizes, shapes as well as price ranges. Before buying an y equipment, check consumer ratings and follow our other tips for smart consumers.
+		  </p>
+		</article>
+</div>
+
+<div class='news'>
+		<article>
+		  <h2>Tips for perfect Eating out</h2>
+		  <p>
+			Eating out can be truly pleasurable when you realize how to approach the procedure. You should be cautious as you intend to eat in any eatery or inexpensive food community. This is on the grounds that; you can without much of a stretch devour nourishments that can make you include additional weight when you eat at an inappropriate spot. You should be appropriately guided in choosing sound weight control plans as you consider eating out.
+			At long last, you should stay away from gorging as you eat out. You don’t need to eat out on everyday schedule. You despite everything need to set up your suppers so as to appreciate sound living.
+		  </p>
+		</article>	
+</div>
+
+<div class='internet'>
+		<article>
+		  <h2>Benefits Of Email Marketing For Your Business</h2>
+		  <p>
+			Email marketing is sending messages to a group of people or a person through email. The sole reason for email marketing is to inform your customers or potential customers about your services, updates, offers or discounts. Email marketing is mostly used by companies or organizations to interact with their customers while promoting their brand.
+			Technology has evolved that email marketing is not only for desktop users but also for mobile users which means that there are more people to reach.91% of internet users check their email at least once a day on their smartphones. When it is done properly and you can connect with the audience the right way, you will see an ROI.
+			Email marketing is a must especially for businesses since it allows you to design emails depending on your target audience.
+		  </p>
+		</article>
 
 
-	<article>
-	  <h2>IMPORTANCE OF DIGITAL MARKETING COURSE</h2>
-	  <p>
-		Digital advertising Efforts are to get a sale [paid customer] using online platforms or social channels. A digital advertising and marketing course should make certain You grasp the art of online advertising from Getting noticed as an emblem to communicating the logo offerings to instructing and selling to gain the user’s attention and subsequently get his[user] cash for the company. In a simple way, a course that educates & offers you the self-belief to execute virtual marketing practices adhering white label practices for any online internet site either to force visitors or conversions. Now you can get admission in digital marketing course in Lucknow.
+		<article>
+		  <h2>IMPORTANCE OF DIGITAL MARKETING COURSE</h2>
+		  <p>
+			Digital advertising Efforts are to get a sale [paid customer] using online platforms or social channels. A digital advertising and marketing course should make certain You grasp the art of online advertising from Getting noticed as an emblem to communicating the logo offerings to instructing and selling to gain the user’s attention and subsequently get his[user] cash for the company. In a simple way, a course that educates & offers you the self-belief to execute virtual marketing practices adhering white label practices for any online internet site either to force visitors or conversions. Now you can get admission in digital marketing course in Lucknow.
 
-		BENEFITS OF DIGITAL MARKETING-
+			BENEFITS OF DIGITAL MARKETING-
 
-		The rely on digital advertising jobs is booming up. There may be an alarming upward push within the be counted of virtual jobs within the years yet to come. Thinking of pursuing a profession in digital advertising is sensible. You could put together yourselves for a task position that will be in high demand in the coming years.
-		Digital advertising does not restrict you to one precise activity profile. Even the main groups together with Google, Twitter, and Facebook offer a big selection of job possibilities.
-		One of the benefits of digital advertising provider is that it may be provided remotely. as a result, there’s an opportunity to be a freelancer.
-	  </p>
-	</article>
+			The rely on digital advertising jobs is booming up. There may be an alarming upward push within the be counted of virtual jobs within the years yet to come. Thinking of pursuing a profession in digital advertising is sensible. You could put together yourselves for a task position that will be in high demand in the coming years.
+			Digital advertising does not restrict you to one precise activity profile. Even the main groups together with Google, Twitter, and Facebook offer a big selection of job possibilities.
+			One of the benefits of digital advertising provider is that it may be provided remotely. as a result, there’s an opportunity to be a freelancer.
+		  </p>
+		</article>
+</div>						
 	</div>
 
 </body>
