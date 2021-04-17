@@ -20,4 +20,10 @@ $(document).ready(function(){
 	
 	$.fn.tabSelection(that, parent);
   });
+  
+  $(".left-nav li").click(function(){
+	var parent = $('.navbar'),
+		that = $(this);
+	$.fn.tabSelection(that, parent);
+  });
 });
