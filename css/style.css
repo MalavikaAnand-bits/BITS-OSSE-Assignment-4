@@ -43,3 +43,9 @@ article p {
 	color: #5a4f4f;
 	font-size:18px;
 }
+
+.footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
