@@ -31,7 +31,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
 - Other awesome features yet to be implemented
 
 .
-![ArticleZone](https://i.imgur.com/RWcJyHL.png)
+![ArticleZone](https://i.imgur.com/EuY1WVQ.png)
 
 ## Contributing
 
