@@ -20,7 +20,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
 | Project      | Home Page                                    			 |
 |--------------|-----------------------------------------------------------------|
 | JQuery       | <https://jquery.com/>                        			 |
-| Bootstrap    | <https://getbootstrap.com                    			 |
+| Bootstrap    | <https://getbootstrap.com>                    			 |
 | HTML5        | <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5> |
 | CSS3         | <https://developer.mozilla.org/en-US/docs/Web/CSS> 		 |
 
