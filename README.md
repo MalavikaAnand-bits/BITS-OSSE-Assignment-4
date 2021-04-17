@@ -31,7 +31,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
 - Other awesome features yet to be implemented
 
 .
-![Education](https://i.imgur.com/7Pag15r.png)
+![ArticleZone](https://i.imgur.com/RWcJyHL.png)
 
 ## Contributing
 
