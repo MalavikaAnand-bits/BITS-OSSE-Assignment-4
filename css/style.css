@@ -8,7 +8,7 @@ body {
 	background: #d2bc96bf;
 	background-image: linear-gradient(to bottom right, #bfb8a2, #9f998a);
 	min-height: 1200px;
-    overflow: auto;
+        overflow: auto;
 }
 
 .navbar-nav li a {
@@ -32,8 +32,8 @@ a.navbar-brand {
 .left-section {
 	display: inline-block;
 	width: 235px;
-    vertical-align: top;
-    padding-right: 30px;
+        vertical-align: top;
+        padding-right: 30px;
 	border-right: 1px solid #5a4f4f;
 }
 
@@ -44,7 +44,7 @@ a.navbar-brand {
 .left-section ul li a {
 	color: #d24318;
 	font-size: 18px;
-    font-weight: bold;
+        font-weight: bold;
 	text-decoration: none;
 	padding: 10px;
 }
@@ -52,7 +52,7 @@ a.navbar-brand {
 .left-section ul li {
 	list-style: none;
 	margin-bottom: 35px;
-    padding-bottom: 8px;
+        padding-bottom: 8px;
 }
 
 .right-section{
@@ -72,7 +72,7 @@ a.navbar-brand {
 	margin-bottom: 60px;
 	color: darkblue;
 	font-size: 55px;
-    font-weight: bold;
+        font-weight: bold;
 	text-align: center;	
 }
 
