@@ -1,8 +1,8 @@
 $(document).ready(function(){
  
   $.fn.selectedArticles = function() { 
-   var section = $("li.active").prop('id');
-   $(".container").find("div"+'.'+section).show().siblings('div').hide();
+        var section = $("li.active").prop('id');
+        $(".container").find("div"+'.'+section).show().siblings('div').hide();
   }
   
   $.fn.tabSelection = function(that, parentElement) {
@@ -16,8 +16,14 @@ $(document).ready(function(){
 			
   $(".navbar li").click(function(){
 	var parent = $('.left-nav'),
-		that = $(this);
+		     that = $(this);
 	
+	$.fn.tabSelection(that, parent);
+  });
+  
+  $(".left-nav li").click(function(){
+	var parent = $('.navbar'),
+		     that = $(this);
 	$.fn.tabSelection(that, parent);
   });
 });
