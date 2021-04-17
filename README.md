@@ -1,4 +1,4 @@
-# Article Zone
+# ArticleZone
 
 > A simple website with latest most trending articles on various topics.
 
